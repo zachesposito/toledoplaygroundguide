@@ -1,0 +1,11 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+<dl>
+    <dt>Address:</dt><dd>{{.Params.Address}}</dd>
+    <dt>Bathrooms:</dt><dd>{{cond .Params.Bathrooms "Yes" "No"}}</dd>
+    <dt>Runnable:</dt><dd>{{cond .Params.Runnable "Yes" "No"}}</dd>
+</dl>
+
+{{ .Content }}
+{{end}}

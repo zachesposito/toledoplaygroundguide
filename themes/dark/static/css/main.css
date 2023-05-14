@@ -1,0 +1,21 @@
+
+
+body {
+    background:#418;
+    color: rgb(218, 189, 255);
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: #fff;
+    text-decoration:none;
+    border-bottom:1px solid;
+}
+
+dt {
+    font-weight:bold;
+}
+
+h1,h2,h3 {
+    color: rgb(235, 219, 255);
+}
