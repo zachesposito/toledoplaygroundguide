@@ -1,6 +1,14 @@
 {{ define "main" }}
 
 <h1>{{ .Title }}</h1>
+
+<div class="post-info-last-mod">
+    Updated: 
+    <time datetime="{{ .Lastmod }}" title="{{ .Lastmod }}">
+        {{ .Lastmod }}
+    </time>
+</div>
+
 <dl>
     <dt>Address:</dt><dd>{{.Params.Address}}</dd>
     <dt>Bathrooms:</dt><dd>{{cond .Params.Bathrooms "Yes" "No"}}</dd>
@@ -8,4 +16,5 @@
 </dl>
 
 {{ .Content }}
+
 {{end}}

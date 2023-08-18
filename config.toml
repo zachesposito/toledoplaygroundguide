@@ -2,3 +2,4 @@ baseURL = 'https://toledoplaygroundguide.org/'
 languageCode = 'en-us'
 title = 'Toledo Playground Guide'
 theme = 'dark'
+enableGitInfo = true

@@ -4,6 +4,10 @@ body {
     background:#418;
     color: rgb(218, 189, 255);
     font-family: 'Open Sans', sans-serif;
+    max-width:900px;
+    margin: 0 auto; 
+    padding-top:1em;
+    line-height:1.7;
 }
 
 a {
@@ -18,4 +22,8 @@ dt {
 
 h1,h2,h3 {
     color: rgb(235, 219, 255);
+}
+
+li {
+    margin-bottom:.5em;
 }

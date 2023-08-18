@@ -4,10 +4,12 @@ date: {{ .Date }}
 address: 
 bathrooms: 
 runnable: 
+shade: 
+website: 
 ---
 
-<h2>Safety</h2>
+## Safety
 
-<h2>Running</h2>
+## Running
 
-<h2>Nearby areas of interest</h2>
+## Nearby areas of interest

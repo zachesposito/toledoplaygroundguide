@@ -1,9 +1,11 @@
 ---
 title: "Pacesetter Park"
-date: 2023-05-09T22:16:52-04:00s
+date: 2023-05-09T22:16:52-04:00
 address: "8801 Sylvania-Metamora Rd, Sylvania, OH 43560"
 bathrooms: true
 runnable: true
+shade: 1;
+website: https://www.playsylvania.com/pacesetter-park/
 ---
 
 Very long playground. Includes picnic tables in shade. Fenced in with an exit near each end.
