@@ -5,7 +5,9 @@ address: 5403 Elmer Drs, Toledo, OH 43615
 bathrooms: true
 runnable: false
 shade: 3
+condition: 3
 website: https://metroparkstoledo.com/explore-your-parks/toledo-botanical-garden-metropark/
+rating: 5
 ---
 
 Nestled in the trees near the north parking lot is a delightful wood-and-rope playground that will thrill and challenge young climbers. Featuring rope bridges, multiple interconnected platforms, and a three-story tower, kids can run wild for an hour or more without touching the ground.

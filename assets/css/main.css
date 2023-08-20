@@ -18,6 +18,11 @@ a {
 
 dt {
     font-weight:bold;
+    float:left;
+    clear:both;
+}
+dd {
+    margin-left:9em;
 }
 
 h1,h2,h3 {
@@ -26,4 +31,10 @@ h1,h2,h3 {
 
 li {
     margin-bottom:.5em;
+}
+
+.data-list:after {
+    content:'';
+    display:table;
+    clear:both;
 }

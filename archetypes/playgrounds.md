@@ -5,7 +5,9 @@ address:
 bathrooms: 
 runnable: 
 shade: 
+condition:
 website: 
+rating:
 ---
 
 ## Safety

@@ -9,10 +9,13 @@
     </time>
 </div>
 
-<dl>
+<dl class="data-list">
     <dt>Address:</dt><dd>{{.Params.Address}}</dd>
     <dt>Bathrooms:</dt><dd>{{cond .Params.Bathrooms "Yes" "No"}}</dd>
     <dt>Runnable:</dt><dd>{{cond .Params.Runnable "Yes" "No"}}</dd>
+    <dt>Shade:</dt><dd>{{.Params.Shade}}/3</dd>
+    <dt>Condition:</dt><dd>{{.Params.Condition}}/3</dd>
+    <dt>Overall rating:</dt><dd>{{.Params.Rating}}/5</dd>
 </dl>
 
 {{ .Content }}

@@ -8,7 +8,7 @@
 
 	<div>{{ .Content }}</div>
 
-	<h2>Parks</h2>
+	<h2>Playgrounds</h2>
 	<ul>
 		<!-- orders content according to the "publishdate" field in front matter -->
 		{{ range first (.Site.Params.PostLimit | default 4) (where .Site.RegularPages.ByPublishDate "Section" "playgrounds") }}
